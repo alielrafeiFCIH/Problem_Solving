@@ -1,0 +1,21 @@
+#include iostream
+#include iomanip
+#include bitsstdc++.h
+
+using namespace std;
+
+int main()
+{
+int h1,h2,m1,m2,m=0,h=0;
+scanf(%d%dn%d%d,&h1,&m1,&h2,&m2);
+
+if(h20&&h1==0){
+    h=24-h2;
+
+}else{
+h=h1-h2;
+m=m1-m2;
+}
+printf(%02d%02d,h,m);
+    return 0;
+}

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1516106224 source:d:\books\problem solving\simple stack\main.cpp
+	<bits/stdc++.h>
+	"Stack.h"
+
+1516106215 d:\books\problem solving\simple stack\stack.h
+
+1516106215 source:d:\books\problem solving\simple stack\stack.cpp
+	"Stack.h"
+

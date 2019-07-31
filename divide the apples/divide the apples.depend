@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510403506 source:d:\books\problem solving\divide the apples\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

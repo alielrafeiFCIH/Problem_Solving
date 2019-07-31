@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int a[46][46];
+
+int main()
+{
+    int n,k;
+    long long m;
+    cin>>n>>k>>m;
+    int b[46];
+
+    for(int i=1 ; i<=k ; ++i)cin>>b[i];
+    sort(b+1,b+(k+1));
+    for(int i=1 ; i<=n ; ++i){
+        for(int j=1 ; j<=k ; ++j)a[i][j]=b[j];
+    }
+    long long t=m,t1=m;
+    int x=0;
+    bool temp=false;
+    for(int i=1 ; i<=n ; ++i){
+        for(int j=1 ; j<=k ; ++j){
+            if(a[i][j]<=t){++x;t-=a[i][j];}
+            else {temp=true;break;}
+        }
+        if(temp)break;
+        ++x;
+    }
+    temp=false;
+    int y=0;
+    for(int j=1 ; j<=k ; ++j){
+        for(int i=1 ; i<=n ; ++i){
+            if(a[i][j]<=t1){++y;t1-=a[i][j];}
+            else {temp=true;break;}
+        }
+        if(temp)break;
+    }
+    cout<<max(x,y)<<endl;
+    return 0;
+}

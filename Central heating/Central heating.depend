@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510508568 source:d:\books\problem solving\central heating\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

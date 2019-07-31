@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488643539 source:e:\ali\pst\pst\main.cpp
+	<iostream>
+	<iomanip>
+	<bits/stdc++.h>
+

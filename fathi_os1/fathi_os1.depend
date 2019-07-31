@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1551346876 source:/media/ali/4E6CAD606CAD4415/Education/problem solving/fathi_os1/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1551391198 source:d:\education\problem solving\fathi_os1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

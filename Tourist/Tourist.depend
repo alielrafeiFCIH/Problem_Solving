@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510415068 source:d:\books\problem solving\tourist\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1510497351 source:d:\books\problem solving\power of cryptography\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+	<math.h>
+

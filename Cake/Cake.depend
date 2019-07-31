@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510406848 source:d:\books\problem solving\cake\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

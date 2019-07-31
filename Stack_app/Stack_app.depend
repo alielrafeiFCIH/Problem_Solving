@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1509714538 source:d:\books\problem solving\stack_app\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1509714579 source:d:\books\problem solving\stack_app\stack_array.c
+
+1509715030 source:d:\books\problem solving\stack_app\stack_linked.c
+	"Stack.h"
+
+1509715623 d:\books\problem solving\stack_app\stack.h
+

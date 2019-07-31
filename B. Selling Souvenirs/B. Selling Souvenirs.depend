@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1506694490 source:d:\books\problem solving\b. selling souvenirs\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1489754034 source:e:\ali\pst\prime\main.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<bits/stdc++.h>
+

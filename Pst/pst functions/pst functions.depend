@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1490450159 source:e:\books\pl1\pst functions\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

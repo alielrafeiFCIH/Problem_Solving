@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1501886630 source:d:\books\pst stl strings\three-square\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

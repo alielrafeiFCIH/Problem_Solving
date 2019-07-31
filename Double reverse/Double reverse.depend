@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511005730 source:d:\books\problem solving\double reverse\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cmath>
+#include <assert.h>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+int n,c,z,k,t,a;
+cin>>c;
+for(int i=1;i<=c;i++){
+     z=0;
+    cin>>t>>k;
+for(int j=1;j<=t;j++){
+cin>>a;
+a=a/k;
+z+=a;
+}
+cout<<z<<endl;
+}
+    return 0;
+}

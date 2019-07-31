@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cmath>
+#include <assert.h>
+#include <algorithm>
+using namespace std;
+int getmax(int arr[],int size){
+assert(size>=2);
+int fstmax=arr[0],secmax=arr[1];
+if(fstmax<secmax){
+    swap(fstmax,secmax);
+}
+for(int i=2;i<size;++i){
+    if(arr[i]>fstmax){
+        secmax=fstmax;
+        fstmax=arr[i];
+    }else if(arr[i]>secmax){
+           secmax=arr[i];}else;
+}
+return secmax;
+}
+
+int main()
+{const int len=7;
+int arr[len]={7,6,5,4,2,33,3};
+cout<<getmax(arr,len)<<endl;
+    return 0;
+}

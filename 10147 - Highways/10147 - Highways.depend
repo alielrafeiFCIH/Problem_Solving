@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1563615342 source:/mnt/4E6CAD606CAD4415/Education/problem solving/10147 - Highways/main.cpp
+	<set>
+	<map>
+	<list>
+	<iomanip>
+	<cmath>
+	<string>
+	<vector>
+	<queue>
+	<stack>
+	<complex>
+	<sstream>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<numeric>
+	<utility>
+	<functional>
+	<stdio.h>
+	<assert.h>
+	<memory.h>
+	<bitset>
+

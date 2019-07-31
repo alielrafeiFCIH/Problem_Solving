@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1544134620 source:/media/ali/4E6CAD606CAD4415/Education/problem solving/OS_2_Taskes/main.c
+	<stdlib.h>
+	<stdio.h>
+	<errno.h>
+	<pthread.h>
+	<unistd.h>
+	<sched.h>
+

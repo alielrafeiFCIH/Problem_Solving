@@ -1,0 +1,32 @@
+#include <iostream>
+#include <iomanip>
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+int a,i,j,n,h=0,l=0,b=0,x,t;
+cin>>t;
+for(i=1;i<=t;i++){
+    cin>>n;
+    cin>>x;
+    for(j=1;j<n;j++){
+        cin>>a;
+        if(x>a){
+            h++;
+            x=a;
+        }else if(x<a){
+            l++;
+            x=a;
+        }
+    }
+
+    cout<<"case "<<i<<":"<<l<<" "<<h<<endl;
+h=0;
+l=0;
+}
+
+
+    return 0;
+}

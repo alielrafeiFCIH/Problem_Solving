@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+int i,y,x,a=0;
+cin>>x>>y;
+
+    for(i=1;i<=y;i++){
+            a++;
+        cout<< i ;
+        cout<< " ";
+        if(a==x){
+            cout << endl;
+            a=0;
+        }
+    }
+
+
+    return 0;
+}

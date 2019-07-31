@@ -1,0 +1,32 @@
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+int n,cpy=0,p1=0,p2=0,p3=0,p4=0,p5=0,p6=0,x=0,y=0,m=0;
+cin>>n;
+int arr[n];
+for(i=0;i<x;i++){
+    cin>>arr[i];
+    if(arr[i]==1){
+        p1=i;
+    }
+    if(cpy<arr[i]){
+        p2=i;
+        cpy=arr[i];
+    }
+
+}
+p3=abs(p1-0);
+p4=abs(p2-0);
+p5=abs(p1-(n-1));
+p6=abs(p2-(n-1));
+x=max(p3,p4);
+y=max(p5,p6);
+m=max(x,y);
+cout<<m<<endl;
+
+
+    return 0;
+}

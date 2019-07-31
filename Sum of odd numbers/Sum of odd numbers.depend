@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511000338 source:d:\books\problem solving\sum of odd numbers\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

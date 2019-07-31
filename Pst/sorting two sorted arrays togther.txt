@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cmath>
+#include <assert.h>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+
+
+int sorted1[5]= {1,10,100,1000,1001};
+int sorted2[3]= {2,4,150};
+int arr[8]={};
+for(int i=0;i<5;i++){
+    arr[i]=sorted1[i];
+}
+for(int c=5,k=0;c<8&&k<=2;c++,k++){
+
+    arr[c]=sorted2[k];
+}
+for(int x=0;x<9;x++){
+    cout<<arr[x]<<"\t";
+}
+for(int y=0;y<8;y++){
+    
+    
+}
+    return 0;
+}

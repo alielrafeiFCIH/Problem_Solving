@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <cmath>
+#include <assert.h>
+#include <algorithm>
+using namespace std;
+
+
+int main()
+{
+int len=7;
+int arr[len]={1,3,4,6,23,49,2};
+for(int i=1;i<len;i++){
+    int cpy=arr[i];
+    int j=i-1;
+    for(;j>=0;--j){
+        if(arr[j]<cpy){
+            break;
+        }
+        arr[j+1]=arr[j];
+
+    } arr[j+1]=cpy;
+}
+for(int c=0;c<len;c++){
+cout<<arr[c]<<"\t";}
+
+    return 0;
+}

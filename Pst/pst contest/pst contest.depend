@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1491064479 source:e:\ali\pst\pst contest\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

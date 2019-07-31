@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1501619683 source:d:\books\pst stl strings\gold\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1510495315 source:d:\books\problem solving\testing\main.cpp
+	<iostream>
+	<bits/stdc++.h>
+
