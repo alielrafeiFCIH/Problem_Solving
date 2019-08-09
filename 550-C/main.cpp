@@ -12,8 +12,8 @@ bool go(int i, int mod) {
 	}
 	if (memo[i][mod] != -1)
 		return memo[i][mod];
-	return memo[i][mod] = go(i + 1, (mod * 10 + (s[i] - '0')) % 8)
-						  || go(i + 1, mod);
+
+	return memo[i][mod] = go(i + 1, (mod * 10 + (s[i] - '0')) % 8) || go(i + 1, mod);
 }
 
 void print(int i, int mod) {

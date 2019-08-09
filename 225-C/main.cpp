@@ -2,6 +2,7 @@
 
 using namespace std;
 int hash_count[1009];
+int memo [1000+9][1000+9][3];
 int n,m,x,y;
 
 int solve_dp(int column,int wid,int prev){
@@ -11,7 +12,7 @@ int solve_dp(int column,int wid,int prev){
 
         return 0;
     }
-    int ans = -1;
+    int &ans = memo [column][wid][prev];
 
     if(ans!=-1){
         return ans;
@@ -41,6 +42,7 @@ int main()
             if(ch=='#')hash_count[j]++;
         }
     }
+    memset(memo,-1,sizeof(memo));
     printf("%d",solve_dp(0,0,2));
     return 0;
 }
