@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1565651985 source:/home/ali/problem solving/10600 - ACM Contest and Blackout/main.cpp
+	<set>
+	<map>
+	<list>
+	<iomanip>
+	<cmath>
+	<string>
+	<vector>
+	<queue>
+	<stack>
+	<complex>
+	<sstream>
+	<iostream>
+	<fstream>
+	<algorithm>
+	<numeric>
+	<utility>
+	<functional>
+	<stdio.h>
+	<assert.h>
+	<memory.h>
+	<bitset>
+	<limits.h>
+
